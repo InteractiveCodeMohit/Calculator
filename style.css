@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background:url(calbg.jpg);
+}
+    h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 235, 57);
+}
+.colm{
+    border: 2px solid red;
+    
+}
+.row input{
+    font-size: medium;
+    height: 10px;
+    width: 245px;
+    padding: 18px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.btn{
+    font-size: medium;
+    height: 65px;
+    width: 61px;
+    padding: 23px;
+    margin:5px;
+    cursor: pointer;
+    background-color: rgb(48, 101, 107);
+    color: rgb(110, 230, 11);
+    border-radius: 10px;
+}
